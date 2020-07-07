@@ -1,0 +1,1132 @@
+.container,.container-fluid{
+    width: 100%;
+    max-width: 1440px;
+}
+.marginTop42{
+    margin-top: 42px !important;
+}
+.noPadding{
+    padding: 0px !important;
+}
+.nopaddingLeft{
+    padding-left: 0px !important;
+}
+button:focus{
+    outline: none;
+    border: none;
+}
+.mobileView{
+    display: none;
+}
+/****************************** Header CSS ******** Start *********************/
+.openMenu{
+    display: none;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #28276b;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+}
+
+.overlay a {
+    font-family: Ubuntu;
+    font-style: normal;
+    border-bottom: 1px solid;
+  text-align: left;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: -5px;
+    right: 13px;
+    font-size: 60px;
+    border: none;
+    color: #28276B;
+}
+.mobileMenu .title{
+    margin: 0;
+    background: #FAA7B7 !important;
+    padding: 30px;
+    font-size: 30px;
+    color: #fff;
+}
+#header .navbar-inverse{
+    margin: 0;
+    border-radius: 0;
+    padding: 15px;
+    background-color: #FAA7B7 !important;
+    border: none;
+}
+#header .logoDiv .navbar-brand{
+    display: flex;
+    padding: 5px;
+    position: absolute;
+    left: 60px;
+}
+#header .logoDiv .navbar-brand p{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+    color: #fff;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+#header .nav .navbar-nav{
+    align-items: center;
+    display: flex;
+}
+#header .navbar-inverse .navbar-nav>.active>a{
+    background-color: transparent !important;
+}
+#header .navbar-inverse .navbar-nav>li>a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+#header .navbar-inverse .navbar-nav>.signButton a{
+    background: #FB7A8E;
+    border-radius: 60px;
+    padding: 10px 41px;
+}
+#header .navbar-inverse .navbar-nav>.loginButton a{
+    background: #FFFFFF;
+    border-radius: 60px;
+    padding: 10px 46px;
+    color: #FB7A8E;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+#header .navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+#header .navbar-inverse .navbar-toggle:focus,#header .navbar-inverse .navbar-toggle:hover{
+    background-color: transparent;
+}
+/****************************** Header CSS ******** End *********************/
+/****************************** Banner CSS ******** Start *********************/
+
+#bannerSection{
+    background-image: url('../assets/img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bannerSection .bannerTitle{
+    padding-top: 222px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: 0.015em;
+    color: #F2F2F2;
+    margin: 0px;
+}
+#bannerSection .bannnerPara{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    letter-spacing: 0.015em;
+    color: #F2F2F2;
+    margin-top: 30px;
+}
+#bannerSection .bannerButtonDiv{
+    text-align: justify;
+    margin-top: 80px;
+    margin-bottom: 163px;
+}
+#bannerSection .bannerButtonDiv .buttonDiv .usingWinkButton{
+    background: #FB7A8E;
+    border-radius: 60px;
+    padding: 10px 30px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+#bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 60px;
+    padding: 10px 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    background-color: transparent;
+    margin-left: 30px;
+}
+/****************************** Banner CSS ******** End *********************/
+
+/****************************** Feature Image Div CSS ******** Start *********************/
+.mobileFeatureView{
+    display: none;
+}
+#featureDiv .sleepLogBg{
+    background-image: url('../assets/img/sleepBg.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 264px;
+    padding-top: 36px;
+    margin-top: 47px;
+}
+#featureDiv .sleepLogTraining{
+    background-image: url('../assets/img/trainingBG.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 264px;
+    padding-top: 36px;
+    margin-top: 47px;
+}
+#featureDiv .sleepLogTraining .imagePara{
+    color: #4655A3;
+}
+#featureDiv .sleepLogBg .imageButton,#featureDiv .sleepLogTraining .imageButton{
+    background: #FB7A8E;
+    box-shadow: 4px 6px 12px rgba(251, 122, 142, 0.2);
+    border-radius: 60px;
+    color: #FFFFFF;
+}
+#featureDiv .analyzeLogBg{
+    background-image: url('../assets/img/analyzeBg.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    height: 315px;
+    padding-top: 70px;
+    margin-top: 47px;
+}
+#featureDiv .sleepLogBg  .imageTitle, #featureDiv .sleepLogBg .imagePara{
+    color: #4655A3;
+}
+#featureDiv .analyzeLogBg  .imageTitle, #featureDiv .analyzeLogBg .imagePara{
+    text-align: right;
+    color: #4655A3;
+}
+#featureDiv .analyzeLogBg .imageButton{
+    float: right;
+    background: #FB7A8E;
+    box-shadow: 4px 6px 12px rgba(251, 122, 142, 0.2);
+    border-radius: 60px;
+    color: #FFFFFF;
+
+}
+#featureDiv{
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+#featureDiv img{
+    margin: auto;
+}
+#featureDiv .imageTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #4655A3;
+}
+#featureDiv .imagePara{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #828282;
+    margin-top: 30px;
+}
+#featureDiv .imageButton{
+    border: 2px solid #FB7A8E;
+    box-sizing: border-box;
+    border-radius: 60px;
+    padding: 10px 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FB7A8E;
+    margin-top: 68px;
+}
+/****************************** Feature Image Div CSS ******** End *********************/
+
+/****************************** babySleepingDiv CSS ******** Start *********************/
+#babySleepingDiv{
+    margin-top: 88px;
+    padding-top: 120px;
+    padding-bottom: 37px;
+    background-color: #F9F8FF;
+}
+#babySleepingDiv .sleepingTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #4655A3;
+    max-width: 674px;
+    width: 100%;
+    margin: auto;
+}
+
+/****************************** babySleepingDiv CSS ******** End *********************/
+
+/****************************** Timmer Section CSS ******** Start *********************/
+#timmerSection{
+    background-color: #F9F8FF;
+}
+/* .sleepLog{
+    background-image: url('../assets/img/circle.png');
+    background-repeat: no-repeat;
+} */
+#timmerSection .sleepLogContent{
+    text-align: left;
+    padding-top: 270px;
+}
+#timmerSection .vectorBg .sleepAnalyize{
+    padding-top: 0px !important;
+}
+#timmerSection .sleepLogContent .title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.015em;
+    color: #4655A3;
+}
+#timmerSection .sleepLogContent .para{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.015em;
+    color: #4655A3;
+}
+#timmerSection .sleepLogContent .getButton{
+    background: #FB7A8E;
+    box-shadow: 4px 6px 12px rgba(251, 122, 142, 0.2);
+    border-radius: 60px;
+    padding: 10px 30px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    margin-top: 55px;
+}
+.vectorBg{
+    background-image: url('../assets/img/Vector.png');
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    padding-left: 60px;
+}
+/****************************** Timmer Section CSS ******** End *********************/
+
+/****************************** Content Section CSS ******** Start *********************/
+#contentSection{
+    margin-top: 160px;
+}
+#contentSection .contentPara{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.015em;
+    color: #4655A3;
+    text-align: left;
+    max-width: 971px;
+    width: 100%;
+    margin: auto;
+}
+#contentSection .contentButton{
+    border: 2px solid #FB7A8E;
+    box-sizing: border-box;
+    border-radius: 60px;
+    padding: 10px 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FB7A8E;
+    margin-top: 60px;
+}
+/****************************** Content Section CSS ******** End *********************/
+
+/****************************** Testimonial Section CSS ******** Start *********************/
+#testimonialSliderDiv{
+    background: #4655A3;
+    padding-top: 100px;
+    margin-top: 110px;
+    padding-bottom: 60px;
+}
+#testimonialSliderDiv .title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+#testimonialSliderDiv .sliderDiv{
+    margin-top: 80px;
+}
+#testimonialSliderDiv .sliderDiv .slick-slide img{
+    margin: auto;
+}
+#testimonialSliderDiv .sliderDiv .testimonialPara{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    max-width: 499px;
+    width: 100%;
+    margin-top: 40px !important;
+    margin: auto;
+}
+#testimonialSliderDiv .sliderDiv .authorName{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+#testimonialSliderDiv .sliderDiv .slick-dots li button:before{
+    font-size: 14px;
+}
+#testimonialSliderDiv .sliderDiv .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #F2F2F2;
+}
+#testimonialSliderDiv .sliderDiv .slick-dots li button:before{
+    opacity: 0.6;
+    color: #F2F2F2;
+}
+#testimonialSliderDiv .sliderDiv .authorDesignation{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #F2F2F2;
+}
+/****************************** Testimonial Section CSS ******** End *********************/
+#babyWinkPro{
+    margin-top: 80px;
+}
+#babyWinkPro .title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #4655A3;
+}
+.babyWinkContent{
+    margin-top: 80px;
+}
+#babyWinkPro .babyWinkList{
+    text-align: left;
+    list-style: none;
+    padding-left: 180px;
+    padding-top: 30px;
+}
+#babyWinkPro .babyWinkList li{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 48px;
+    letter-spacing: 0.015em;
+    color: #4655A3;
+}
+#babyWinkPro .babyWinkList li:before{
+    content: "";
+    background-image: url('../assets//img/tick.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 20%;
+    max-width: 50px;
+}
+/* #babyWinkPro .annualDiv{
+    background-repeat: no-repeat;
+    padding: 30px 20px;
+    width: 100%;
+    background-color: #fb7a8e;
+    max-width: 507px !important;
+    min-width: 507px !important;
+    border-radius: 29px;
+    margin: auto;
+    margin-bottom: 50px;
+} */
+#babyWinkPro .annualDiv{
+    background-image: url('../assets/img/annual.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    margin: auto;
+    padding: 41px 13px;
+    width: 100%;
+    max-width: 80%;
+}
+#babyWinkPro .annualDiv .annualPricePara{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    text-align: left;
+}
+p.annualPricePara:after {
+    content: "Hello";
+    text-align: unset;
+    float: right;
+    background-color: #6196FE;
+    padding: 3px 30px;
+    font-size: 18px;
+    border-radius: 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+}
+#babyWinkPro .annualDiv .freeText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    text-align: left;
+}
+#babyWinkPro .monthDiv{
+    background-image: url('../assets/img/Monthly.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    margin: auto;
+    padding: 41px 13px;
+    width: 100%;
+    max-width: 80%;
+}
+#babyWinkPro .monthDiv .monthPricePara{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #4F4F4F;
+    text-align: left;
+}
+#babyWinkPro .monthDiv .freeText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #4F4F4F;
+    text-align: left;
+}
+.subcribeButton{
+    background: #FB7A8E;
+    box-shadow: 4px 6px 12px rgba(251, 122, 142, 0.2);
+    border-radius: 60px;
+    padding: 10px 30px;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    margin-top: 60px;
+}
+#bgImageSection img{
+    width: 100%;
+    margin-top: 80px;
+}
+/******************************Mobile Footer ******** Start *********************/
+.mobileFooterDiv{
+    padding-top: 67px;
+    padding-bottom: 79px;
+    background-color: #fff;
+}
+.mobileFooterDiv .footerList .footerTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #4655A3;
+    text-align: left;
+}
+.mobileFooterDiv .footerList ul{
+    list-style: none;
+}
+.mobileFooterDiv .footerList ul li{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #4655A3;
+    text-align: left;
+    font-weight: 300;
+}
+.mobileFooterDiv .footerList .list1,.mobileFooterDiv .footerList .list2,.mobileFooterDiv .footerList .list3{
+    padding-left: 0;
+}
+.mobileFooterDiv .underLine{
+    width: 100%;
+    border: 1px solid #00000026;
+    margin-top: 40px;
+    display: block;
+}
+.mobileFooterDiv .termConditionDiv{
+    text-align: end;
+    margin-top: 30px;
+}
+.mobileFooterDiv .termConditionDiv span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8b94c5;
+    padding-left: 12px;
+}
+.mobileFooterDiv .babyWinkText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8b94c5;
+    text-align: left;
+    margin-top: 20px;
+    display: block;
+}
+/****************************** Mobile Footer ******** End *********************/
+/****************************** Desktop Footer ******** Start *********************/
+#footerSection .footerDiv{
+    background: #4655A3;
+    padding-top: 67px;
+    padding-bottom: 79px;
+}
+#footerSection .footerDiv .footerImage{
+    text-align: left;
+    display: flex;
+}
+#footerSection .footerDiv .footerImage .footerPara{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 21px;
+    margin-bottom: 0px;
+}
+#footerSection .footerDiv .footerList{
+    margin-top: 60px;
+}
+#footerSection .footerDiv .mobileFooter{
+    display: none;
+}
+#footerSection .footerDiv .footerList .footerTitle{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 80px;
+}
+#footerSection .footerDiv .footerList ul{
+    list-style: none;
+}
+#footerSection .footerDiv .footerList .list1{
+    padding-left: 80px;
+}
+#footerSection .footerDiv .footerList .list2{
+    padding-left: 78px;
+}
+#footerSection .footerDiv .footerList .list3{
+    padding-left: 86px;
+}
+#footerSection .footerDiv .footerList ul li{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: 300;
+}
+.footerSocialDiv{
+    margin-top: 117px;
+}
+.footerSocialDiv ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.footerSocialDiv ul li{
+    width: 60px;
+    height: 60px;
+    border: 3px solid;
+    padding: 7px;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #F2F2F2;
+    margin-right: 17px;
+    position: relative;
+}
+.footerSocialDiv ul li i{
+    color: #F2F2F2;
+}
+.linkImage:before{
+    content: "";
+    background-image: url('../assets/img/link.png');
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: 10px;
+}
+/****************************** Desktop Footer ******** End *********************/
+/****************************** Privacy Policy ******** Start *********************/
+#privacyPolicySection{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#privacyPolicySection .title{
+    font-family: Ubuntu;
+    font-style: normal;
+    color: #4655A3;
+}
+/****************************** Privacy Policy ******** End *********************/
+#termConditionDiv{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#termConditionDiv .title{
+    font-family: Ubuntu;
+    font-style: normal;
+    color: #4655A3;
+}
+.contentDiv{
+    text-align: left;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 100px;
+    color: #929599;
+}
+.contentDiv .title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #4655A3;
+}
+/****************************** Media Query ******** Start *********************/
+@media only screen and (max-width: 1200px) {
+    #babyWinkPro .annualDiv,#babyWinkPro .monthDiv{
+        padding: 29px 13px;
+    }
+    #babyWinkPro .annualDiv .annualPricePara span{
+        font-size: 15px;
+        padding: 0px 30px;
+        margin-left: 0px;
+    }
+    #babyWinkPro .annualDiv .annualPricePara,#babyWinkPro .monthDiv .monthPricePara,#babyWinkPro .babyWinkList li{
+        font-size: 18px;
+    }
+    #timmerSection .sleepLogContent{
+        padding-top: 250px;
+    }
+    #babySleepingDiv .sleepingTitle{
+        font-size: 30px;
+    }
+    #featureDiv .imageTitle{
+        font-size: 22px;
+    }
+    #featureDiv .imagePara{
+        font-size: 15px;
+    }
+    #featureDiv .imageButton{
+        font-size: 15px;
+        padding: 4px 30px;
+    }
+
+    #footerSection .footerDiv .footerList .list1,#footerSection .footerDiv .footerList .list2,#footerSection .footerDiv .footerList .list3{
+        padding-left: 80px;
+    }
+  } 
+ @media only screen and (max-width: 992px) {
+    
+    p.annualPricePara:after{
+        padding: 0px 12px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #babyWinkPro .annualDiv,#babyWinkPro .monthDiv{
+        max-width: 90%;
+        padding: 20px 13px;
+    }
+    #babyWinkPro .annualDiv .annualPricePara span{
+        margin-left: 0px;
+    }
+    #babyWinkPro .annualDiv .annualPricePara span{
+        font-size: 12px;
+    }
+    #babyWinkPro .annualDiv .annualPricePara, #babyWinkPro .monthDiv .monthPricePara, #babyWinkPro .babyWinkList li{
+        font-size: 16px;
+    }
+    #babyWinkPro .babyWinkList li:before{
+        left: 12%;
+    }
+    #babyWinkPro .babyWinkList{
+        padding-left: 90px;
+    }
+     .vectorBg .sleepAnalyize{
+         padding-left: 50px !important;
+         padding-top: 0px !important;
+     }
+    #babySleepingDiv{
+        padding-top: 0px;
+    }
+    #timmerSection .sleepLogContent{
+        padding-top: 170px;
+    }
+    .vectorBg{
+        margin-top: 100px;
+        padding-left: 0px;
+        margin-bottom: 50px;
+    }
+    #contentSection{
+        margin-top: 80px;
+    }
+    #contentSection .contentPara{
+        text-align: center;
+    }
+    #babyWinkPro .babyWinkList{
+        padding-top: 0px;
+    }
+    #bannerSection {
+      background-size: cover;
+    }
+    #bannerSection .bannerTitle{
+        font-size: 40px;
+        padding-top: 150px;
+    }
+  } 
+  @media only screen and (max-width: 768px) {
+      .contentDiv{
+          text-align: center;
+          font-size: 15px;
+      }
+      .openMenu{
+          display: block;
+      }
+      .openMenu:focus{
+          border: 1px  solid #fff;
+      }
+      #timmerSection,#babySleepingDiv .sleepingTitle,.hideNavButton{
+          display: none;
+      }
+    #featureDiv .sleepLogBg .imageButton,#featureDiv .sleepLogTraining .imageButton{
+        float: left;
+    }
+    #featureDiv{
+        padding-top: 0px;
+    }
+    #featureDiv .sleepLogBg .imageTitle,#featureDiv .sleepLogBg .imagePara,#featureDiv .sleepLogTraining .imageTitle,#featureDiv .sleepLogTraining .imagePara{
+        text-align: left;
+    }
+    #featureDiv .imagePara{
+        max-width: 100% !important;
+    }
+      .mobileFeatureView{
+          display: block;
+          margin-top: 47px;
+      }
+      .desktopView{
+          display: none;
+      }
+    #footerSection .footerDiv .mobileFooter{
+        display: block;
+        margin-top: 30px;
+    }
+    #footerSection .footerDiv{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    #footerSection .footerDiv .mobileFooter .underLine{
+        width: 100%;
+        border: 1px solid #F9F8FF;
+        margin-top: 40px;
+        display: block;
+    }
+    #footerSection .footerDiv .mobileFooter .babyWinkText{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-align: left;
+        margin-top: 20px;
+        display: block;
+    }
+    #footerSection .footerDiv .mobileFooter .termConditionDiv span{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        padding-left: 12px;
+    }
+    #footerSection .footerDiv .mobileFooter .termConditionDiv{
+        text-align: end;
+        margin-top: 30px;
+        display: block;
+    }
+      .listNone,.footerSocialDiv{
+          display: none;
+      }
+      #footerSection .footerDiv .footerList .list1, #footerSection .footerDiv .footerList .list2, #footerSection .footerDiv .footerList .list3{
+          padding-left: 0px;
+      }
+    #footerSection .footerDiv .footerImage{
+        display: none;
+    }
+    #footerSection .footerDiv .footerList{
+        margin-top: 0px;
+    }
+    #footerSection .footerDiv .footerList .footerTitle{
+        padding-left: 0px;
+        font-size: 18px;
+    }
+    .subcribeButton{
+        width: 100%;
+        max-width: 70%;
+        margin-top: 30px;
+    }
+    #babyWinkPro .babyWinkList{
+        padding-left: 0px;
+        list-style: disc;
+        width: 100%;
+        max-width: 70%;
+        margin: auto;
+    }
+    #babyWinkPro .monthDiv{
+        margin-top: 20px;
+    }
+    #babyWinkPro .annualDiv,#babyWinkPro .monthDiv{
+        padding: 45px 70px;
+    }
+    #babyWinkPro .title{
+        font-size: 18px;
+        width: 100%;
+        max-width: 70%;
+        margin: auto;
+        text-align: left;
+    }
+    .babyWinkContent{
+        margin-top: 0px;
+    }
+    #babyWinkPro .babyWinkList li:before{
+        background-image: none;
+        list-style: disc;
+    }
+    #testimonialSliderDiv .title{
+        display: none;
+    }
+    #testimonialSliderDiv .sliderDiv{
+        margin-top: 0px;
+    }
+    #testimonialSliderDiv{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #contentSection .contentPara{
+        text-align: left;
+        font-size: 18px;
+    }
+    #contentSection .contentButton{
+        float: left;
+        font-size: 15px;
+        padding: 5px 30px;
+    }
+    .desktopView{
+        display: none;
+    }
+    .mobileView{
+        display: block;
+    }
+    #bannerSection .bannerButtonDiv .buttonDiv .usingWinkButton,#bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
+        font-size: 15px;
+        padding: 5px 20px;
+    }
+    #featureDiv .imagePara{
+        width: 100%;
+        max-width: 360px;
+        margin: auto;
+    }
+    #bannerSection .bannerTitle{
+        font-size: 40px;
+        padding-top: 150px;
+    }
+    #header .nav .navbar-nav{
+        display: block;
+    }
+    #header .navbar-inverse .navbar-nav>li>a{
+        text-align: left;
+    }
+    #bannerSection {
+        background: #28276B;
+    }
+    #bannerSection:before{
+        content: "";
+        background-image: url('../assets/img/mobileBg.png');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        max-width: 170px;
+    }
+  } 
+  @media only screen and (max-width: 650px) {
+    .overlay a{
+        font-size: 25px;
+    }
+    #babyWinkPro .annualDiv,#babyWinkPro .monthDiv{
+        padding: 20px 70px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .overlay a{
+        font-size: 20px;
+    }
+    .subcribeButton{
+        max-width: 80%;
+    }
+    #footerSection .footerDiv .footerList ul li,#footerSection .footerDiv .footerList .footerTitle{
+        font-size: 12px;
+    }
+    #babyWinkPro .annualDiv,#babyWinkPro .monthDiv{
+        padding: 10px 40px;
+        max-width: 100%;
+    }
+    #bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
+        margin-left: 0px;
+        margin-top: 30px;
+        padding: 5px 20px;
+    }
+    #bannerSection .bannerButtonDiv{
+        margin-bottom: 80px;
+    }
+    #header .logoDiv .navbar-brand{
+        left: 30px;
+    }
+  } 
+  @media only screen and (max-width: 420px) {
+    #babyWinkPro .annualDiv,#babyWinkPro .monthDiv{
+        padding: 10px;
+    }
+  }
+/****************************** Media Query ******** End *********************/
