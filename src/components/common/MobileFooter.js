@@ -1,6 +1,6 @@
 import React from 'react';
 import footerImg from '../assets/img/footerImg.png';
-import appleLogo from '../assets/img/appleStore.jpg';
+import appleLogo from '../assets/img/cbimage.jpg';
 
 const MobileFooter = () =>{
     return(

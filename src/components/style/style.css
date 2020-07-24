@@ -745,6 +745,14 @@ p.annualPricePara:after {
 #footerSection .footerDiv .footerList .list3{
     padding-left: 86px;
 }
+#footerSection .footerDiv .footerList ul.list3 li>a,#footerSection .footerDiv .mobileFooter .termConditionDiv span a {
+    color: #fff;
+    text-decoration: none;
+}
+#footerSection .footerDiv .footerList ul.list3 li>a:hover{
+    color: #fff;
+    text-decoration: none;
+}
 #footerSection .footerDiv .footerList ul li{
     font-family: Roboto;
     font-style: normal;
@@ -773,6 +781,16 @@ p.annualPricePara:after {
     color: #F2F2F2;
     margin-right: 17px;
     position: relative;
+}
+.footerSocialDiv ul li:nth-child(1) a{
+    position: absolute;
+    right: 20px;
+    top: 4px;
+}
+.footerSocialDiv ul li a{
+    position: absolute;
+    right: 15px;
+    top: 4px;
 }
 .footerSocialDiv ul li i{
     color: #F2F2F2;
