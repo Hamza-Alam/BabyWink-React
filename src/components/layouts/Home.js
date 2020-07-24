@@ -110,7 +110,7 @@ const Home = (props) =>{
                             No one knows your baby better than you, or can take better decisions. But when you’re tired and overwhelmed, you’ll need a bit of help to maintain a neat schedule and healthy sleep for the baby and the whole family.
                             </p>
                             <div className="text-center">
-                            <a href="https://apps.apple.com/us/app/baby-wink/id1239819394" target="_blank"><button className="contentButton">Learn more</button></a>
+                            <a href="/blog" target="_blank"><button className="contentButton">Learn more</button></a>
                             </div>
                         </div>
                     </div>
@@ -137,24 +137,6 @@ const Home = (props) =>{
                                 </div>
                                 <div>
                                     <img className="img-responsive" src={featureImage3}/>
-                                    <p className="testimonialPara">“I love the Babywink app. It has helped all our family to get a better night’s rest. My baby’s sleep cycle has greatly improved since I’ve started using this.”</p>
-                                    <h4 className="authorName">Mikko</h4>
-                                    {/* <p className="authorDesignation">Chfisonsoen</p> */}
-                                </div>
-                                <div>
-                                <img className="img-responsive" src={featureImage1}/>
-                                    <p className="testimonialPara">“My wife was skeptical* the first time I told her about this. My then, 8-months old daughter had a terrible sleeping pattern, routinely waking up in the middle of the night. Within 4 days of using this training, she was sleeping better.”</p>
-                                    <h4 className="authorName">Atif</h4>
-                                    {/* <p className="authorDesignation">Chfisonsoen</p> */}
-                                </div>
-                                <div>
-                                <img className="img-responsive" src={featureImage2}/>
-                                    <p className="testimonialPara">“Babywink has made putting my baby down to sleep much less stressful. The app is simple to use and lets me share my baby’s charts with the babysitter, which makes me feel like a part of my baby’s everyday routine.”</p>
-                                    <h4 className="authorName">Nadejhda</h4>
-                                    {/* <p className="authorDesignation">Chfisonsoen</p> */}
-                                </div>
-                                <div>
-                                <img className="img-responsive" src={featureImage3}/>
                                     <p className="testimonialPara">“I love the Babywink app. It has helped all our family to get a better night’s rest. My baby’s sleep cycle has greatly improved since I’ve started using this.”</p>
                                     <h4 className="authorName">Mikko</h4>
                                     {/* <p className="authorDesignation">Chfisonsoen</p> */}
