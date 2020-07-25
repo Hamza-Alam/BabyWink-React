@@ -1117,6 +1117,12 @@ p.annualPricePara:after {
     }
   }
   @media only screen and (max-width: 480px) {
+    #bannerSection .bannerButtonDiv .buttonDiv .usingWinkButton,#bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
+        width: 55%;
+    }
+    #bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
+        margin-left: 0px;
+    }
     .overlay a{
         font-size: 20px;
     }

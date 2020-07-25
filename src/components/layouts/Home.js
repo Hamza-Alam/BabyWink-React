@@ -34,7 +34,7 @@ const Home = (props) =>{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="buttonDiv">
-                                    <button className="usingWinkButton">Start using Babywink</button>
+                                    <a href="https://apps.apple.com/us/app/baby-wink/id1239819394" target="_blank"><button className="usingWinkButton">Start using Babywink</button></a>
                                     <button className="expectingBaby">Expecting a baby?</button>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@ const Home = (props) =>{
                 </div>
             </section>
             <section id="testimonialSliderDiv">
-                <h4 className="title">What the parents says about Babywink</h4>
+                <h4 className="title">What the parents say about Babywink</h4>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
