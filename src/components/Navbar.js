@@ -30,6 +30,7 @@ const NavBar = () =>{
                 <ul className="nav navbar-nav">
                     <li className="active"><a href="#babySleepingDiv">How it works</a></li>
                     <li><a href="#babyWinkPro">Pricing</a></li>
+                    <li><a href="/blog">Blog</a></li>
                     {/* <li className="signButton"><a>Sign up</a></li>
                     <li className="loginButton"><a>Log in</a></li> */}
                 </ul>

@@ -45,9 +45,9 @@ button:focus{
     font-style: normal;
     border-bottom: 1px solid;
   text-align: left;
-  padding: 8px 20px;
+  padding: 8px 30px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 27px;
   color: #fff;
   display: block;
   transition: 0.3s;
@@ -84,6 +84,7 @@ button:focus{
     padding: 5px;
     position: absolute;
     left: 60px;
+
 }
 #header .logoDiv .navbar-brand p{
     margin: 0;
@@ -931,6 +932,34 @@ p.annualPricePara:after {
     }
   } 
   @media only screen and (max-width: 768px) {
+    #header .logoDiv .navbar-brand{
+        left: 40%;
+    }
+    #bannerSection .bannnerPara{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    #header .navbar-inverse .navbar-toggle{
+        float: left;
+        margin-left: 30px;
+        border: none;
+    }
+    #header .navbar-toggle .icon-bar{
+        width: 24px;
+        height: 2px;
+        border-radius: 17px;
+        background-color: #4655A3;
+    }
+    
+      #bannerSection,#contentSection,#babyWinkPro{
+          padding: 0px 25px;
+      }
+      .sleepLogBg,.sleepLogTraining{
+          padding-left: 25px;
+      }
+      .analyzeLogBg{
+          padding-right: 25px;
+      }
       .contentDiv{
           text-align: center;
           font-size: 15px;
@@ -1027,7 +1056,7 @@ p.annualPricePara:after {
         padding-left: 0px;
         list-style: disc;
         width: 100%;
-        max-width: 70%;
+        max-width: 80%;
         margin: auto;
     }
     #babyWinkPro .monthDiv{
@@ -1040,8 +1069,8 @@ p.annualPricePara:after {
         font-size: 18px;
         width: 100%;
         max-width: 70%;
-        margin: auto;
         text-align: left;
+    padding-left: 58px;
     }
     .babyWinkContent{
         margin-top: 0px;
@@ -1074,6 +1103,7 @@ p.annualPricePara:after {
     }
     .mobileView{
         display: block;
+        margin-top: 80px;
     }
     #bannerSection .bannerButtonDiv .buttonDiv .usingWinkButton,#bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
         font-size: 15px;
@@ -1085,8 +1115,9 @@ p.annualPricePara:after {
         margin: auto;
     }
     #bannerSection .bannerTitle{
-        font-size: 40px;
+        font-size: 34px;
         padding-top: 150px;
+        line-height: 41px;
     }
     #header .nav .navbar-nav{
         display: block;
@@ -1117,8 +1148,19 @@ p.annualPricePara:after {
     }
   }
   @media only screen and (max-width: 480px) {
+    #babyWinkPro .babyWinkList{
+        margin-bottom: 40px;
+    }
+    #babyWinkPro .babyWinkList li{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #babyWinkPro .title{
+        padding-left: 22px;
+        max-width: 100%;
+    }
     #bannerSection .bannerButtonDiv .buttonDiv .usingWinkButton,#bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
-        width: 55%;
+        width: 64%;
     }
     #bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
         margin-left: 0px;
@@ -1127,7 +1169,7 @@ p.annualPricePara:after {
         font-size: 20px;
     }
     .subcribeButton{
-        max-width: 80%;
+        max-width: 95%;
     }
     #footerSection .footerDiv .footerList ul li,#footerSection .footerDiv .footerList .footerTitle{
         font-size: 12px;
@@ -1138,19 +1180,32 @@ p.annualPricePara:after {
     }
     #bannerSection .bannerButtonDiv .buttonDiv .expectingBaby{
         margin-left: 0px;
-        margin-top: 30px;
+        margin-top: 20px;
         padding: 5px 20px;
     }
     #bannerSection .bannerButtonDiv{
         margin-bottom: 80px;
     }
-    #header .logoDiv .navbar-brand{
-        left: 30px;
-    }
   } 
   @media only screen and (max-width: 420px) {
+    #header .logoDiv .navbar-brand p{
+        font-size: 18px;
+    }
+      .navImg{
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        left: -5%;
+        top: 16px;
+      }
     #babyWinkPro .annualDiv,#babyWinkPro .monthDiv{
         padding: 10px;
+    }
+    #babyWinkPro .babyWinkList{
+        max-width: 90%;
+    }
+    #babyWinkPro .title{
+        padding-left: 0px;
     }
   }
 /****************************** Media Query ******** End *********************/

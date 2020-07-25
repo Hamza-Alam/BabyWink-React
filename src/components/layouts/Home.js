@@ -49,7 +49,7 @@ const Home = (props) =>{
             <div className="mobileFeatureView">
                 <MobileFeatureDiv/>
             </div>
-            <section id="babySleepingDiv">
+            {/* <section id="babySleepingDiv">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -57,7 +57,7 @@ const Home = (props) =>{
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section id="timmerSection">
                 <div className="container">
                     <div className="row">
@@ -122,7 +122,7 @@ const Home = (props) =>{
                     <div className="row">
                         <div className="col-lg-12">
                         <div className="sliderDiv">
-                            <div class="your-class">
+                            <div className="your-class">
                                 <div>
                                     <img className="img-responsive" src={featureImage1}/>
                                     <p className="testimonialPara">“My wife was skeptical* the first time I told her about this. My then, 8-months old daughter had a terrible sleeping pattern, routinely waking up in the middle of the night. Within 4 days of using this training, she was sleeping better.”</p>
