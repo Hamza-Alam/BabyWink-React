@@ -11,9 +11,9 @@ const MobileMenu = () =>{
                 <h4 className="title">BabyWink</h4>
                 <a href="javascript:void(0)" className="closebtn" onClick={closeMenu}>&times;</a>
                 <div className="overlay-content">
-                    <a href="#">How it works</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Blog</a>
+                    <a href="#timmerSection">How it works</a>
+                    <a href="#babyWinkPro">Pricing</a>
+                    <a href="/blog">Blog</a>
                 </div>
             </div>
         </div>

@@ -49,7 +49,7 @@ const Home = (props) =>{
             <div className="mobileFeatureView">
                 <MobileFeatureDiv/>
             </div>
-            {/* <section id="babySleepingDiv">
+            <section id="babySleepingDiv">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -57,7 +57,7 @@ const Home = (props) =>{
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
             <section id="timmerSection">
                 <div className="container">
                     <div className="row">

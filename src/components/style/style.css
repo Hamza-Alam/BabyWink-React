@@ -36,7 +36,7 @@ button:focus{
 
 .overlay-content {
   position: relative;
-  top: 10%;
+  top: 5%;
   width: 100%;
 }
 
@@ -932,6 +932,9 @@ p.annualPricePara:after {
     }
   } 
   @media only screen and (max-width: 768px) {
+    #babySleepingDiv{
+        display: none;
+    }
     #header .logoDiv .navbar-brand{
         left: 40%;
     }
